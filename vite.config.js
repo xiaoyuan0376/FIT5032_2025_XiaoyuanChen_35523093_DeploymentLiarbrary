@@ -14,5 +14,8 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  base: process.env.NODE_ENV === 'production'
+    ? '/<FIT5032_2025_XiaoyuanChen_35523093_DeploymentLiarbrary/'
+    : '/'
 })
