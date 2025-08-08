@@ -19,7 +19,7 @@ coverage
 
 # Editor directories and files
 .vscode/*
-!.vscode/extensions.json # this is need to track
+!.vscode/extensions.json # this is need to track, so it's not ignored
 .idea
 *.suo
 *.ntvs*
